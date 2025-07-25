@@ -1,0 +1,81 @@
+git init -> for intialisation in vs code
+
+git remote add origin (url) -> to add a remote named origin to our repoisitory
+ 
+git remote remove origin -> to remove the origin we were
+
+git remote -> to now in which origin we were 
+
+git remote -v -> to make it ready for push and pull operations
+o/p = fetch and push 
+
+git config --global user.name "SAI CHARAN"
+
+git config --global user.email "mailid"
+
+git add demo.txt -> to add our txt file to git repository
+
+git commit -m "added demo.txt"  -> to add our data to git repository 
+
+
+git branch  -> it has 2 branches one is main branch and master branch 
+
+so in vs code it is master initially so we need to change to main 
+
+git branch -m main -> to change
+
+git push -u origin main
+
+git pull origin main  -> to pull data
+
+echo "project file">>project.txt
+
+creates new text file named project.txt and adds text project file to it.
+
+.gitignore - predefined file for git 
+the files mentioned in this will not push or pull 
+
+// .env is should not be pushed as it will accessible to all so we should make it not push to anyone
+
+
+create sample.env to specify the port number
+
+.git ignore should be pushed after adding 
+
+to add forcefullt use -f or delete
+
+
+//to add branches 
+
+git branch name
+
+switch to our branch
+
+git checkout nameofbranch
+
+git branch -> to check the branch we are
+
+add index.html file (create)
+
+git add index.html
+git commit -m "added index.html"
+git push -u origin sai(branch name)
+
+for example for a project working on 3 roles 
+create 3 separate branches 
+create branch , add , commit and push
+
+to give msg another method -> 
+git commit
+to enter text type i at start for insertion 
+type ur msg
+enter esc after adding msg 
+to quit - shift + ; = : w
+q 
+
+
+Should merge all this or connect 3 other branches to the main
+
+
+
+
